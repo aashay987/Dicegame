@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: yellow;
+  padding-top: 40px;
+}
+.intro{
+  font-size: 60px;
+  color: red;
+  text-align: center;
+}
+
+.section{
+  display: flex;
+  padding: 10px 10px;
+}
+.bt{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.player{
+  flex: 45%;
+  text-align: center;
+  font-size: 30px;
+}
+button{
+  margin: auto;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: cyan;
+}
+.lan{
+  display: none;
+}
+.det{
+  display: block;
+  /* display: none; */
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+}
